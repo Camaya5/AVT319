@@ -1,3 +1,34 @@
 html{
-background-color: black;
+background-color: #342333;
+font-family: sans-serif;
 }
+
+#page-title{
+    background-color: #f9ddcd;
+    padding: 5%;
+}
+
+
+
+
+#works{
+    margin-top: 5rem;
+    display: flex;
+   justify-content: center;
+}
+
+#works a{
+color: #f9ddcd;
+text-decoration: none;
+border: #f9ddcd 2px solid;
+padding: 1rem;
+margin: 2rem;
+border-radius: 20px;
+}
+
+#works a:hover{
+    color: #342333;
+    background-color: #f9ddcd;
+   
+    }
+    
