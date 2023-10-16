@@ -1,0 +1,213 @@
+html {
+    background: url(data/adrien-olichon-1243197-unsplash.jpg) no-repeat;
+    background-size: contain;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.topnav {
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    /* Maring: Top, right, bottom left */
+    margin: 3% 20% 0 20%;
+    border-radius: 20px;
+    justify-content: space-around;
+    border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, .1); */
+    backdrop-filter: blur(20px);
+  }
+  
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-family: sans-serif;
+    padding: 10px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 10px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+    
+
+
+  /* Heading that tells the user to Register */
+h2.Sign-in {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/* css for all content on and inside the form */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+    background: transparent;
+    gap: 1rem;
+    margin-bottom: 20%;
+    
+}
+
+
+.form-box {
+    position: absolute;
+    margin-top: 100px;
+    width: 600px;
+    height: 850px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+/* .forget {
+    margin: 15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .forget label input {
+    margin-right: 3px;
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+} */
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+
+}
+/* link in footer to take back to splash */
+.back-to-home{
+    color: white;
+    }
+footer{
+    background-color: #000000;
+    width: auto;
+}
+
+footer .footer-text{
+    text-align: left;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    line-height: 4rem;
+}
