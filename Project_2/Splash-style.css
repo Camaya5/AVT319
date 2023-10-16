@@ -1,0 +1,86 @@
+html {
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+
+}
+body{
+    background: #342333;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+#conference-banner {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #342333;
+    border-bottom: #f9ddcd 2px solid;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 0 0 ;
+}
+
+.navbar a {
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9ddcd;
+    padding: 0 1rem;
+    
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #342333;
+    background-color: #f9ddcd;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+#conference-intro{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #f9ddcd;
+}
+#conference-info h1{
+    font-weight: bold;
+
+}
+#about-button{
+    text-align: center;
+    margin: 0 0 5rem 0;
+}
+#about-button a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9ddcd;
+    border: #f9ddcd 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+
+}
+#about-button a:hover{
+    color: #342333;
+    background-color: #f9ddcd;
+    border: none;
+}
+
+footer{
+    background-color: #342333;
+}
+footer p{
+    color: #f9ddcd;
+    border-top: #f9ddcd 2px solid;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
