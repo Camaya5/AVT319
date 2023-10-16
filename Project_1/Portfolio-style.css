@@ -1,0 +1,203 @@
+html {
+    background: url(data/adrien-olichon-1243197-unsplash.jpg) no-repeat;
+    background-size: contain;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+  
+}
+/* Nav Bar */
+/* Add a black background color to the top navigation */
+.topnav {
+
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    /* Maring: Top, right, bottom left */
+    margin: 3% 20% 0 20%;
+    border-radius: 20px;
+    justify-content: space-around;
+    border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, .1); */
+    backdrop-filter: blur(20px);
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-family: sans-serif;
+    padding: 10px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 15px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #a56fe2;
+    color: white;
+}
+h1{
+    font-size: 400%;
+    color: white;
+    margin: 2% 10% 3% 10%;
+}
+ h2, h3, h4, h5, h6{
+    font-size: 150%;
+    color: white;
+    margin: 2% 10% 0 10%;
+}
+.intro-to-chris-work{
+    font-size: 150%;
+    color: white;
+    margin: 2% 10% 5% 10%;
+   
+}
+ul{
+    color: white;
+    margin: 3% 15% 0 15%;
+}
+li{
+    font-size: 150%;
+    padding-bottom: 2%;
+}
+.Button-box{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    margin: 5% 44% 0 44%;
+    border-radius: 20px;
+    justify-content: space-around;
+    border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, .1); */
+    backdrop-filter: blur(20px);
+    margin-bottom: 10%;
+}
+.Button-box a{
+    font-family: sans-serif;
+    padding: 10px;
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Button-box a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 15px;
+}
+
+/* Link to contact */
+.Information-container a{
+    color: white;
+    font-weight: bold;
+    font-size: 170%;
+    margin: 2% 10% 10% 10%;
+    border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, .1); */
+    backdrop-filter: blur(20px);
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.Information-container a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.Work-container{
+    display: grid;
+    max-width: 100%;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: space-evenly;
+   
+    
+    
+    
+}
+.Work-container img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: auto;
+    justify-content: center;
+   
+}
+.button-box{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: auto;
+    margin: 3% 44% 5% 44%;
+    border-radius: 20px;
+    justify-content: space-around;
+    /* border-color: 10px solid rgb(255, 255, 255, 255, 0.3); */
+    background: transparent;
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, .1); */
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.button-box a{
+    font-family: sans-serif;
+    padding: 10px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 47px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+.button-box a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.back-to-home{
+    color: white;
+    }
+footer{
+    background-color: #000000;
+    width: auto;
+    position: center;
+    bottom: 0;
+}
+
+footer .footer-text{
+    text-align: left;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    line-height: 4rem;
+}

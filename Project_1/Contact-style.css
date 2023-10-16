@@ -1,0 +1,99 @@
+html {
+    background: url(data/adrien-olichon-1243197-unsplash.jpg) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+  
+}
+/* Nav Bar */
+/* Add a black background color to the top navigation */
+.topnav {
+
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    /* Maring: Top, right, bottom left */
+    margin: 3% 20% 0 20%;
+    border-radius: 20px;
+    justify-content: space-around;
+    border-color: 10px solid rgb(255, 255, 255, 255, 0.3);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, .1); */
+    backdrop-filter: blur(20px);
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-family: sans-serif;
+    padding: 10px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 15px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #a56fe2;
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    padding: 2% 20% 0 20%;
+}
+h2{
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: 2rem;
+    padding: 2% 20% 0 20%
+}
+.contact-details{
+    font-weight: 600;
+    color: white;
+    font-size: 1,5rem;
+    padding: 0 20% 0 20%
+    
+}
+.contact-details a{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+}
+.contact-details a:hover{
+    color: white;
+}
+.back-to-home{
+    color: white;
+    }
+footer{
+    text-align: center;
+    background-color: #000000;
+    width: 100%;
+    position: center;
+    bottom: 0;
+}
+
+footer .footer-text{
+    text-align: left;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    line-height: 4rem;
+}
