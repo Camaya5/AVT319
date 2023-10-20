@@ -1,0 +1,147 @@
+html {
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+
+}
+
+body {
+    background: #342333;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #342333;
+    border-bottom: #f9ddcd 2px solid;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 0 0 ;
+}
+
+.navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9ddcd;
+    padding: 0 1rem;
+
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #342333;
+    background-color: #f9ddcd;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+
+#sources-title{
+    background-color: #f9ddcd;
+    text-align: center;
+    color: #342333;
+    font-size: 150%;
+    margin: 4rem 0;
+    padding: 4rem;
+}
+
+/* wireframe button  */
+#wireframe{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#wireframe a{
+    font-size: 120%;
+    font-weight: bold;
+    color: #f9ddcd;
+    text-decoration: none;
+    border: #f9ddcd 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#wireframe a:hover{
+    background-color: #f9ddcd;
+    color: #342333;
+    border: none;
+}
+
+
+/* Trello board button */
+#trello{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#trello a{
+    font-size: 120%;
+    font-weight: bold;
+    color: #f9ddcd;
+    text-decoration: none;
+    border: #f9ddcd 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#trello a:hover{
+    background-color: #f9ddcd;
+    color: #342333;
+    border: none;
+}
+
+/* site map button */
+#site-map{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#site-map a{
+    font-size: 120%;
+    font-weight: bold;
+    color: #f9ddcd;
+    text-decoration: none;
+    border: #f9ddcd 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#site-map a:hover{
+    background-color: #f9ddcd;
+    color: #342333;
+    border: none;
+}
+
+
+
+/* prototype button */
+#prototype{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#prototype a{
+    font-size: 120%;
+    font-weight: bold;
+    color: #f9ddcd;
+    text-decoration: none;
+    border: #f9ddcd 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+#prototype a:hover{
+    background-color: #f9ddcd;
+    color: #342333;
+    border: none;
+}
+
+
+footer{
+    background-color: #342333;
+}
+footer p{
+    color: #f9ddcd;
+    border-top: #f9ddcd 2px solid;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
