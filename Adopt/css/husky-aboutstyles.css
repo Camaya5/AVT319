@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  font-family: sans-serif;
+	margin: auto;
+		
+} 
+   .container {
+    width: 1280px;
+    margin: auto;
+    position: auto;
+    background-color: #FFFFFF;
+}
+body {
+    background-repeat: repeat;
+    background-color: #FFFFFF;
+    background-image: url(../images/webbackgroundimage.png);
+}
+
+.container header {
+    text-align: center;
+    background-image: url(../images/huskybanner-home.png);
+    height: 600px;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+}
+
+
+
+
+  
+nav {
+    background-color: hsla(210,73%,90%,1.00);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+nav .menus {
+    display: flex;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #D72623;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+  background: hsl(195, 100%, 47%);
+}
+.container footer {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #848484;
+    height: 40px;
+    line-height: 45px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    clear: both;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.container .headerabout {
+    margin-left: 15px;
+    padding-left: 15px;
+}
+.container .asidedetails {
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    float: right;
+    width: 600px;
+    display: inline;
+    font-family: Arial, Verdana;
+    font-weight: 400;
+
+
+
+
+}
+.container .huskypicture {
+    width: 600px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+.branding {
+  display: flex;
+  align-items: center;
+    padding-left: 45px;
+}
+.container footer a:hover {
+    color: #FFFFFF;
+}
+.container footer a {
+    color: #0000CC;
+}
+h1 {
+    text-align: center;
+    line-height: 100px;
+}

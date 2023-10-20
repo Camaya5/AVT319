@@ -1,0 +1,19 @@
+@charset "utf-8";
+.content .aside5 {
+    float: left;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 620px;
+    display: inline;
+    font-family: Arial, Verdana;
+    font-weight: 400;
+}
+.content .slideshow-container {
+    float: right;
+}
