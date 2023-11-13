@@ -1,0 +1,177 @@
+html{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(data/background-blurry\ vision.jpg);
+    background-size: cover;
+    
+  }
+
+
+#nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    animation-name: fade-in;
+    animation-duration: 5s;
+    mix-blend-mode: difference;
+  
+
+}
+#nav li{
+    line-height: 200%;
+    margin: 5% 5% 5% 5%;
+    
+
+}
+#nav a{
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 160%;
+    padding: 1rem;
+    border-radius: 20px;
+
+}
+#nav a:hover{
+    color: #313131;
+    background-color: white;
+    padding: 1rem;
+}
+
+
+#sources-title{
+    text-align: center;
+    color: white;
+    mix-blend-mode: difference;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+#sources-title{
+    font-size: 3rem;
+}
+
+/* wireframe button  */
+#wireframe{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#wireframe a{
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: white 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#wireframe a:hover{
+    background-color: white;
+    mix-blend-mode: difference;
+    color: #342333;
+    border: none;
+}
+
+
+/* Trello board button */
+#trello{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#trello a{
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: white 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#trello a:hover{
+    background-color: white;
+    mix-blend-mode: difference;
+    color: #342333;
+    border: none;
+}
+
+/* site map button */
+#site-map{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#site-map a{
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: white 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#site-map a:hover{
+    background-color: white;
+    mix-blend-mode: difference;
+    color: #342333;
+    border: none;
+}
+
+
+
+/* prototype button */
+#prototype{
+    text-align: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+#prototype a{
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: white 2px solid;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+#prototype a:hover{
+    background-color: white;
+    mix-blend-mode: difference;
+    color: #342333;
+    border: none;
+}
+
+@media (width < 400px) {
+    #nav{
+      text-align: center;
+    }
+    #nav li{
+      font-size: .5rem;
+      margin: .05%;
+      margin-top: 20%;
+     }
+     #sources-title{
+      font-size: 1.5rem;
+      margin: 20% 0 0 0;
+     }
+    #description{
+      font-size: 20%;
+    }
+    #wireframe{
+        margin: 20px;
+    }
+    #trello{
+       margin: 20px; 
+    }
+    #site-map{
+        margin: 20px;
+    }
+    #prototype{
+        margin: 20px;
+    }
+    
+}

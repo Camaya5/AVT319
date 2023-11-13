@@ -1,0 +1,149 @@
+html {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(data/background-blurry\ vision.jpg);
+  background-size: cover;
+}
+
+body {
+  overflow: auto;
+}
+
+#nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  animation-name: fade-in;
+  animation-duration: 5s;
+  mix-blend-mode: difference;
+}
+
+#nav li {
+  line-height: 200%;
+  margin: 5% 5% 5% 5%;
+}
+
+#nav a {
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-size: 160%;
+  padding: 1rem;
+  border-radius: 20px;
+
+}
+
+#nav a:hover {
+  color: #313131;
+  background-color: white;
+  padding: 1rem;
+}
+
+
+#title,
+#description {
+  text-align: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* The animation code */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* The element to apply the animation to */
+#title h1 {
+  font-size: 9rem;
+  width: auto;
+  height: auto;
+  color: white;
+  /* background-color: red; */
+  animation-name: fade-in;
+  animation-duration: 5s;
+  mix-blend-mode: difference;
+}
+
+#description h2 {
+  color: white;
+  font-size: 2rem;
+  animation-name: fade-in;
+  animation-duration: 8s;
+  line-height: 150%;
+  /* text-align: justify;  */
+}
+
+#about-button-container {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#about-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-image: url(data/background-blurry\ vision.jpg);
+  border: white 2px solid;
+  padding: 1rem;
+  border-radius: 20px;
+  animation-name: fade-in;
+  animation-duration: 5s;
+}
+
+#about-button:hover {
+  background-image: none;
+  background-color: white;
+  color: #313131;
+
+}
+
+
+footer {
+  background-color: white;
+  /* text-align: center;
+    align-items: center; */
+}
+
+footer p {
+  color: black;
+
+}
+
+@media (width < 400px) {
+  body {
+    padding: 10px;
+    overflow: auto;
+  }
+
+  #nav {
+    line-height: 0;
+    text-align: center;
+  }
+
+  #nav li {
+    text-align: center;
+    font-size: .5rem;
+    margin: .05%;
+    margin-top: 20%;
+  }
+
+  #title {
+    text-align: center;
+    font-size: .5rem;
+    margin: 50% 0 0 0;
+  }
+
+  #description {
+    font-size: .2rem;
+    line-height: 0;
+  }
+}
